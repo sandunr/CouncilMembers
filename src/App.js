@@ -4,15 +4,15 @@ import './App.css';
 
 const myTreeData = [
   {
-    name: 'Top Level',
+    name: 'State',
     attributes: {
-      keyA: 'val A',
-      keyB: 'val B',
-      keyC: 'val C',
+      // "test": 'King County',
+      // keyB: 'City of Seattle',
+      // keyC: 'Districts',
     },
     children: [
       {
-        name: 'Level 2: A',
+        name: 'King County',
         attributes: {
           keyA: 'val A',
           keyB: 'val B',
