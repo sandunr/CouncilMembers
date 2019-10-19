@@ -1,6 +1,7 @@
 const myTreeData = [
     {
       name: 'State',
+      _collapsed: true,
       attributes: {
         // "test": 'King County',
         // keyB: 'City of Seattle',
@@ -9,26 +10,32 @@ const myTreeData = [
       children: [
         {
           name: 'King County',
+          _collapsed: true,
           attributes: {
           }, children: [
             {
               name: 'Jay Inslee',
+              _collapsed: true,
               attributes: {
                 'Title': 'Governor'
               }, children: [
                 {
                   name: 'Seattle',
+                  _collapsed: true,
                   attributes: {
                   }, children: [
                     {
                       name: 'City Council',
+                      _collapsed: true,
                       attributes: {
                       }, children: [
                         {
                           name: 'District 1',
+                          _collapsed: true,
                           children: [
                             {
                               name: 'Lisa Herbold',
+                              _collapsed: true,
                               attributes: {
                                 'Title': 'Council Member',
                                 'Phone #': '206-684-8803',
@@ -42,6 +49,7 @@ const myTreeData = [
                         },
                         {
                           name: 'District 2',
+                          _collapsed: true,
                           children: [
                               {
                                     name: 'Bruce Harell',
@@ -57,6 +65,7 @@ const myTreeData = [
                         },
                         {
                           name: 'District 3',
+                          _collapsed: true,
                           children: [
                             {
                                 name: 'Kshama Sawant',
@@ -72,6 +81,7 @@ const myTreeData = [
                         },
                         {
                           name: 'District 4',
+                          _collapsed: true,
                           children: [
                             {
                                 name: 'Abel Pacheco',
@@ -87,6 +97,7 @@ const myTreeData = [
                         },
                         {
                           name: 'District 5',
+                          _collapsed: true,
                           children: [
                             {
                                 name: 'Debra Juarez',
@@ -102,6 +113,7 @@ const myTreeData = [
                         },
                         {
                           name: 'District 6',
+                          _collapsed: true,
                           children: [
                             {
                                 name: "Mike O'Brien",
@@ -116,6 +128,7 @@ const myTreeData = [
                         },
                         {
                           name: 'District 7',
+                          _collapsed: true,
                           children: [
                             {
                                 name: 'Sally Bagshaw',
@@ -131,6 +144,7 @@ const myTreeData = [
                         },
                         {
                           name: 'District 8',
+                          _collapsed: true,
                           children: [
                             {
                                 name: 'Teresa Mosqueda',
@@ -146,6 +160,7 @@ const myTreeData = [
                         },
                         {
                           name: 'District 9',
+                          _collapsed: true,
                           children: [
                             {
                                 name: 'Lorena Gonzalez',
@@ -165,14 +180,17 @@ const myTreeData = [
                 },
                 {
                     name: "Mayor's Office",
+                    _collapsed: true,
                     attributes: {},
                     children: [
                         {
                             name: 'Mayor',
+                            _collapsed: true,
                             attributes: {},
                             children: [
                                 {
                                     name: 'Jenny Durkan',
+                                    _collapsed: true,
                                     attributes: {
                                         'Title': 'Mayor',
                                         'Phone #': '206-684-4000',
@@ -185,12 +203,15 @@ const myTreeData = [
                         }, 
                         {
                             name: 'Boards and Comm.',
+                            _collapsed: true,
                             children: [
                                 {
                                     name: "Seattle Human Rights Comm.",
+                                    _collapsed: true,
                                     children: [
                                         {
                                             name: 'Marta Idowu',
+                                            _collapsed: true,
                                             attributes: {
                                                 'Title': 'Department Liaison',
                                                 'Phone #': '206-684-4540',
@@ -202,9 +223,11 @@ const myTreeData = [
                                 },
                                 {
                                     name: 'Community Police Comm.',
+                                    _collapsed: true,
                                     children: [
                                         {
                                             name: 'Tracy Whihtlatch',
+                                            _collapsed: true,
                                             attributes: {
                                                 'Title': 'Department Liaison',
                                                 'Phone #': '206-233-2664',
@@ -216,9 +239,11 @@ const myTreeData = [
                                 },
                                 {
                                     name: "Green New Deal Oversight Board",
+                                    _collapsed: true,
                                     children: [
                                         {
                                             name: 'TBA',
+                                            _collapsed: true,
                                             attributes: {
                                                 'Title': 'Department Liaison',
                                                 'Phone #': 'TBA',
@@ -230,9 +255,11 @@ const myTreeData = [
                                 },
                                 {
                                     name: "Seattle Bicycle Advisory Board",
+                                    _collapsed: true,
                                     children: [
                                         {
                                             name: 'Serena Lehman',
+                                            _collapsed: true,
                                             attributes: {
                                                 'Title': 'Department Liaison',
                                                 'Phone #': '206-256-5371',
@@ -244,9 +271,11 @@ const myTreeData = [
                                 },
                                 {
                                     name: "Seattle Immigrant and Refugee Comm.",
+                                    _collapsed: true,
                                     children: [
                                         {
                                             name: 'Maha Jahshan',
+                                            _collapsed: true,
                                             attributes: {
                                                 'Title': 'Department Liaison',
                                                 'Phone #': '206-615-0195',
@@ -259,9 +288,11 @@ const myTreeData = [
                                 },
                                 {
                                     name: "Seattle LGBTQ Comm.",
+                                    _collapsed: true,
                                     children: [
                                         {
                                             name: 'Erika Pablo',
+                                            _collapsed: true,
                                             attributes: {
                                                 'Title': 'Department Liaison',
                                                 'Phone #': '206-684-4509',
@@ -277,6 +308,7 @@ const myTreeData = [
                 },
                 {
                     name: 'Departments',
+                    _collapsed: true,
                     children: [
                         {
                             name: "Budget Office"
@@ -301,6 +333,7 @@ const myTreeData = [
             }, 
             {
               name: 'Renton',
+              _collapsed: true,
               attributes: {
                 // keyA: 'valA'
               }, children: [
