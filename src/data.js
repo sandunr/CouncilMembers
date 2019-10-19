@@ -10,7 +10,6 @@ const myTreeData = [
         {
           name: 'King County',
           attributes: {
-            keyA: 'val A',
           }, children: [
             {
               name: 'Jay Inslee',
@@ -20,12 +19,10 @@ const myTreeData = [
                 {
                   name: 'Seattle',
                   attributes: {
-                    // keyA: 'valA'
                   }, children: [
                     {
                       name: 'City Council',
                       attributes: {
-                        // keyA: 'valA'
                       }, children: [
                         {
                           name: 'District 1',
@@ -187,25 +184,92 @@ const myTreeData = [
                             ]
                         }, 
                         {
-                            name: 'Boards and Commissions',
+                            name: 'Boards and Comm.',
                             children: [
                                 {
-                                    name: "Seattle Human Rights Commission"
+                                    name: "Seattle Human Rights Comm.",
+                                    children: [
+                                        {
+                                            name: 'Marta Idowu',
+                                            attributes: {
+                                                'Title': 'Department Liaison',
+                                                'Phone #': '206-684-4540',
+                                                'Email': 'Marta.Idowu@seattle.gov',
+                                                'Website': 'http://www.seattle.gov/humanrights/'
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
-                                    name: 'Community Police Commission'
+                                    name: 'Community Police Comm.',
+                                    children: [
+                                        {
+                                            name: 'Tracy Whihtlatch',
+                                            attributes: {
+                                                'Title': 'Department Liaison',
+                                                'Phone #': '206-233-2664',
+                                                'Email': 'TracyM.Whitlatch@seattle.gov',
+                                                'Website': 'https://www.seattle.gov/community-police-commission'
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
-                                    name: "Green New Deal Oversight Board"
+                                    name: "Green New Deal Oversight Board",
+                                    children: [
+                                        {
+                                            name: 'TBA',
+                                            attributes: {
+                                                'Title': 'Department Liaison',
+                                                'Phone #': 'TBA',
+                                                'Email': 'TBA',
+                                                'Website': 'TBA'
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
-                                    name: "Seattle Bicycle Advisory Board"
+                                    name: "Seattle Bicycle Advisory Board",
+                                    children: [
+                                        {
+                                            name: 'Serena Lehman',
+                                            attributes: {
+                                                'Title': 'Department Liaison',
+                                                'Phone #': '206-256-5371',
+                                                'Email': 'Serena.Lehman@seattle.gov',
+                                                'Website': 'http://www.seattle.gov/sbab/'
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
-                                    name: "Seattle Immigrant and Refugee Commission"
+                                    name: "Seattle Immigrant and Refugee Comm.",
+                                    children: [
+                                        {
+                                            name: 'Maha Jahshan',
+                                            attributes: {
+                                                'Title': 'Department Liaison',
+                                                'Phone #': '206-615-0195',
+                                                'Email': 'maha.jahshan@seattle.gov',
+                                                'Website': 'https://www.seattle.gov/immigrant-and-refugee-commission'
+                                            }
+                                        }
+                                    ]
+                                    
                                 },
                                 {
-                                    name: "Seattle LGBTQ Commission"
+                                    name: "Seattle LGBTQ Comm.",
+                                    children: [
+                                        {
+                                            name: 'Erika Pablo',
+                                            attributes: {
+                                                'Title': 'Department Liaison',
+                                                'Phone #': '206-684-4509',
+                                                'Email': 'erika.pablo@seattle.gov',
+                                                'Website': 'http://www.seattle.gov/lgbtq'
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
