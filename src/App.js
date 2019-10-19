@@ -17,7 +17,74 @@ const myTreeData = [
           keyA: 'val A',
           keyB: 'val B',
           keyC: 'val C',
-        },
+        }, children: [
+          {
+            name: 'Seattle',
+            attributes: {
+              keyA: 'valA'
+            }, children: [
+              {
+                name: 'City Council',
+                attributes: {
+                  keyA: 'valA'
+                }, children: [
+                  {
+                    name: 'District 1',
+                    children: [
+                      {
+                        name: 'Lisa Herbold',
+                        attributes: {
+                          'Title': 'Council Member',
+                          'Phone #': '206-684-8803',
+                          'Email': 'lisa.herbold@seattle.gov',
+                          'Website': 'https://www.seattle.gov/council/herbold',
+                          'Twitter': '@Lisa_Herbold'
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    name: 'District 2'
+                  },
+                  {
+                    name: 'District 3'
+                  },
+                  {
+                    name: 'District 4'
+                  },
+                  {
+                    name: 'District 5'
+                  },
+                  {
+                    name: 'District 6'
+                  },
+                  {
+                    name: 'District 7'
+                  },
+                  {
+                    name: 'District 8'
+                  },
+                  {
+                    name: 'District 9'
+                  },
+                ]
+              }
+            ]
+          }, 
+          {
+            name: 'Renton',
+            attributes: {
+              keyA: 'valA'
+            }, children: [
+              {
+                name: 'Level 4',
+                attributes: {
+                  keyA: 'valA'
+                }
+              }
+            ]
+          }
+        ]
       },
       {
         name: 'Level 2: B',
